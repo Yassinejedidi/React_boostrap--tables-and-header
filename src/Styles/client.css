@@ -1,0 +1,58 @@
+.button1 {
+    float: left;
+    margin-left: 1px;
+    border-radius: 3px;
+}
+
+.button1:hover {
+    font-size: medium;
+}
+
+.TT {
+    width: 30%;
+
+}
+
+
+h3 {
+    margin-right: 80%;
+}
+
+#bb {
+    border-radius: 50%;
+    margin-right: 7px;
+    height: 50%;
+
+
+}
+
+#input {
+    float: right;
+    margin-right: 13px;
+    border-radius: 50px;
+    border: 1px solid gray;
+    outline: none;
+    cursor: pointer;
+    padding: 2px 23px 2px 30px;
+    font-size: large;
+    max-width: 30%;
+
+}
+
+#II {
+    font-size: 1.3em;
+    max-width: 40px;
+    height: 35px;
+    float: right;
+}
+
+#input:focus {
+    border: none;
+    outline: none;
+}
+
+@media (max-width: 700px) {
+    .table thead {
+        display: none;
+    }
+}

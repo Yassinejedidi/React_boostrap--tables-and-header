@@ -1,0 +1,37 @@
+._Contenu {
+
+    background-color: rgba(115, 134, 134, 0.199);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+
+
+}
+
+._container {
+    padding: 13px;
+    background-color: white;
+    width: 98%;
+    height: 90%;
+    margin-top: 3%;
+    margin-left: 17%;
+    margin-right: 17%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-radius: 3px;
+
+    box-shadow: 0 1px 3px rgba(119, 102, 102, 0.596), 0 1px 2px rgba(134, 116, 116, 0.637);
+
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
